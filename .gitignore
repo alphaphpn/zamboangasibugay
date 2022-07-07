@@ -7,6 +7,8 @@ inc/srvr.php
 content/theme/default/storage/img/item/
 content/theme/default/storage/img/profile/
 
+srvr.php
+srvr.txt
 sendmail.ini
 database.php
 notes.txt
