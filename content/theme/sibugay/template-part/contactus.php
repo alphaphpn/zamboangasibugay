@@ -1,7 +1,6 @@
 	<div class="<?php echo $contentwidth; ?>">
+		<h2 class="text-center mt-4 mb-2">Contact Us</h2>
 		<div class="row">
-			<h2 class="text-center">Contact Us</h2>
-			<br>
 			<div class="col-sm-5">
 				<p>Contact us and will be in touch to you as soon as we get online.</p>
 				<p><a class="text-body" href="//google.com/maps/place/@<?php echo $geomap; ?>,17z" target="_blank"><span class="fas fa-map-marker-alt"></span> <?php echo $maddress ?></a></p>
