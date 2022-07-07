@@ -1,0 +1,11 @@
+<?php
+
+	include_once "../../../inc/core.php";
+	include_once "../../../inc/webconfig/conf.php";
+	$page_title = "Edit User";
+	if ($_SESSION["ulevpos"]==3 || $_SESSION["ulevpos"]==6) {
+		echo '<script>alert("Access denied.");window.open("../../../","_self")</script>';
+	}
+	include_once "../../../content/template-part/".$themename."/dashboard-header.php";
+	include_once "../../../content/view/user/editupdate.php";
+	include_once "../../../content/template-part/".$themename."/dashboard-footer.php";

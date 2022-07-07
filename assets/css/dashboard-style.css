@@ -1,0 +1,134 @@
+/** Custom Style **/
+
+img.dboard-top-left-logo {
+	height: auto;
+	max-height: 56px;
+}
+
+img.dboardimglogo {
+	width: 100%;
+}
+
+.bg-transparent {
+	background: transparent;
+	background-color: transparent;
+}
+
+.box-shadow-none {
+	box-shadow: none!important;
+}
+
+.box-shadow-default {
+	box-shadow: 0px -1px 5px #282c33;
+}
+
+.page-wrapper .page-content > div {
+	margin-top: 58px;
+}
+
+.w-30px {
+	width: 100%;
+	max-width: 30px;
+}
+
+.bg-light-opacity {
+	background-color: #f8f9fa6b!important;
+}
+
+#listRecView .btn-sm, 
+#listRecView2 .btn-sm {
+	padding: .25rem!important;
+}
+
+#myDashB .alert {
+	padding-top: 6px;
+	padding-bottom: 0;
+}
+
+#myDashB .alert-dismissible .close {
+	padding: 4px;
+}
+
+#myDashB .footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: transparent;
+	color: inherit;
+	font-style: 
+}
+
+#myDashB .card .card-icon i {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 3rem;
+	color: #98a4c7;
+}
+
+#myDashB .w360center {
+	margin-bottom: unset;
+}
+
+#dash-itemprod .img-thumbnail {
+	max-height: 182px;
+	margin: 0 auto;
+}
+
+#general-settings hr {
+	width: 97%;
+}
+
+#user-add .img-thumbnail {
+	width: 100%;
+	height: auto;
+	max-height: 320px;
+}
+
+.dataTable tbody tr td select {
+	cursor: pointer;
+}
+
+#remSortH th input, 
+#remSortH th select {
+	width: 100%;
+}
+
+.dataTable tbody tr td input, 
+.dataTable tbody tr td select {
+	background-color: transparent;
+	border: 0;
+}
+
+#listRecView_filter input,
+#listRecView_length select {
+	background-color: #fff;
+}
+
+#listRecView tfoot tr td input, 
+#listRecView select {
+	width: 100%;
+}
+
+#listRecView tfoot tr td.remove-dropdown select, 
+#listRecView tfoot tr td.remove-dropdown input, 
+#listRecView thead tr th.remove-dropdown select, 
+#listRecView thead tr th.remove-dropdown input {
+	display: none;
+}
+
+.table-responsive table {
+	width: 100%!important;
+}
+
+.tbl-td-min-width {
+	min-width: 320px;
+}
+
+.dboard-nav-top {
+	z-index: 0;
+	height: auto;
+}

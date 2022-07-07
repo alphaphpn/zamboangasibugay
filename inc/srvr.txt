@@ -1,0 +1,15 @@
+<?php
+
+	// Theme:	-default
+	$owner_id	= 1;
+	$host		= 'localhost'; // Server Host
+	$db			= 'zambsibugaydb'; // Database Name
+	$unameroot	= 'root'; // Database Username
+	$pw			= ''; // Database Password
+	$err		= ''; // Database Error Connection
+	$cnn		= null;
+	$dir		= ''; // Domain Directory
+	$lnkfont	= '//fonts.googleapis.com/css?family=Sofia'; // Google Font
+	$membershow	= 1;
+
+	$gauthlogin	= "";

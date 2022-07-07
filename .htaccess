@@ -1,0 +1,13 @@
+RewriteEngine On
+ErrorDocument 404 /alphaphpn.com/alphaphpn/404.html
+ErrorDocument 500 /alphaphpn.com/alphaphpn/401.html
+ErrorDocument 403 /alphaphpn.com/alphaphpn/403.html
+ErrorDocument 400 /alphaphpn.com/alphaphpn/401.html
+ErrorDocument 401 /alphaphpn.com/alphaphpn/401.html
+
+Options -Indexes
+
+<Files ~ "\.txt$">
+Order allow,deny
+Deny from all
+</Files>
