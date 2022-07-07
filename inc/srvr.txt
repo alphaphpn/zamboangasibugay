@@ -1,9 +1,9 @@
 <?php
 
-	// Theme:	-default
-	$owner_id	= 1;
+	// Theme:	-sibugay
+	$owner_id	= 8;
 	$host		= 'localhost'; // Server Host
-	$db			= 'zambsibugaydb'; // Database Name
+	$db			= ''; // Database Name
 	$unameroot	= 'root'; // Database Username
 	$pw			= ''; // Database Password
 	$err		= ''; // Database Error Connection
