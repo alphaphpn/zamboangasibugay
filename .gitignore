@@ -9,9 +9,9 @@ content/theme/default/storage/img/profile/
 
 database.php
 notes.txt
-# 401.html
-# 403.html
-# 404.html
-# .htaccess
+401.html
+403.html
+404.html
+.htaccess
 *.sql
 *.bak
